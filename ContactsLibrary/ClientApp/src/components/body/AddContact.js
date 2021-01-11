@@ -9,7 +9,7 @@ const initialContactState = {
   favorite: ""
 }
 
-export default function AddContact(props){
+export default function AddContact(){
   const {state, actions} = useContext(ContactsContext)
   const [contact, setContact] = useState(initialContactState)
   const history = useHistory()

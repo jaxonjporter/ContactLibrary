@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React, { useContext, useState } from 'react'
 import { ContactsContext } from '../../context/ContactsProvider'
 
 export default function EditContact(props){

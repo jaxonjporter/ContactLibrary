@@ -1,10 +1,9 @@
 import React, { useContext, useEffect } from 'react'
 import { ContactsContext } from '../../context/ContactsProvider'
 import ContactCard from './ContactCard'
-import { getContactList } from '../../context/DataActions'
 
 export default function ContactList(){
-  const {state, actions} = useContext(ContactsContext)
+  const {state} = useContext(ContactsContext)
 
   return (
     <div className="contact-list-container">
