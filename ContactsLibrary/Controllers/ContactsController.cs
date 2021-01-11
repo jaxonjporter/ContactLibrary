@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ContactsLibrary.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
