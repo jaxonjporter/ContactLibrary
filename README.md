@@ -20,6 +20,6 @@ There are a few features with this Contact Library.
 ### Things I would like to add.
 
 I didn't get to adding all the features that I wanted to. Here is a brief list of things I was planning on adding.
-  1. While you can add and delete contacts, the only action that gets the information from the ASP.Net server is the initial Get. 
+  1. While you can add and delete contacts, the only action that gets the information from the ASP.Net server is the initial Get. I would like to add the other CRUD actions.
   2. I want to move the css to more specific files.
   3. The ability to drag and drop the contacts to be in a different order.
